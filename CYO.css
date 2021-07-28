@@ -1,0 +1,120 @@
+#bankAndPhoto{
+  padding-bottom: 100px;
+}
+
+body{
+  background-image: url("photos/background-forest.png");
+  height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+#bankAndPhoto{
+  padding-top: 30px;
+}
+
+h1{
+  background-color: white;
+  border-style: solid;
+  margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+#mapPhoto{
+  display: inline-block;
+  vertical-align:middle;
+  margin-left: 300;
+  margin-right: 10;
+
+  width: 50%;
+}
+
+#Bank{
+  display: inline-block;
+  background-color: white;
+  border-style: solid;
+  margin-left: auto;
+    margin-right: 30;
+    float: right;
+    width: 100px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-right: 90px;
+}
+
+#interactionDiv{
+  display: inline-block;
+  background-color: white;
+  border-style: solid;
+  margin-left: 30;
+  float: left;
+    margin-right: auto;
+    width: 100px;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-right: 80px;
+}
+
+#Welcome{
+  align:center;
+  background-color: white;
+  border-style: solid;
+  margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 50px;
+}
+
+#guide{
+  align:center;
+  background-color: white;
+  border-style: solid;
+  margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 50px;
+}
+
+#gameDiv{
+  align:center;
+  background-color: white;
+  border-style: solid;
+  margin-left: auto;
+  margin-top: 70px;
+    margin-right: auto;
+    width: 600px;
+    padding: 50px;
+}
+
+#freeSpace{
+  align:center;
+  background-color: white;
+  border-style: solid;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-right: auto;
+  width: 230px;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+#me{
+  padding-left: 15px;
+}
+.hidden {
+  display: none;
+}
+#image{
+  width: 10;
+  height: 10;
+}
+#mapScroll{
+  position: fixed;
+     top: 20px;
+}
