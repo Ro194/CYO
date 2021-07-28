@@ -110,10 +110,7 @@ h1{
 .hidden {
   display: none;
 }
-#image{
-  width: 400px;
-  height: 400px;
-}
+
 #mapScroll{
   position: fixed;
      top: 60px;
