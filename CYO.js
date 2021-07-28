@@ -160,11 +160,17 @@ var mapLocation = 0;
 function toggleImage() {
   var image = document.getElementById('image');
   image.classList.toggle('hidden');
-
 }
 
-var button = document.getElementById('mapButton')
+function toggleImage2() {
+  var image = document.getElementById('image2');
+  image2.classList.toggle('hidden');}
+
+var mapButton1 = document.getElementById('mapButton')
 mapButton.addEventListener('click', toggleImage)
+
+var interactButton = document.getElementById('intButton')
+intButton.addEventListener('click', toggleImage2)
 
 
 function onDocumentReady() {
@@ -592,6 +598,29 @@ var gameText = document.getElementById('gameText');
                Water striders accompany you on your journey. They skate \
                effortlessly on the water’s surface, almost daring you to keep \
                up.<br><br>"
+              break;
+
+              case "wade into mirror pond":
+              gameText.innerHTML+= "<b>Mirror Pond Wading</b><br>"+"Tread carefully!\
+               Frogs dash for cover as your boots plunge through the mud and weeds. \
+               The muck grips the soles of your wader and you realize within a \
+               few steps that this small pond, though shallow, has mud that\
+                runs deep.<br><br>"
+              break;
+
+              case "wade into waterfall":
+              gameText.innerHTML+= "<b>Waterfall Wading</b><br>"+"Rocks crunch \
+              and shift beneath your feet. Frigid water streaks white around \
+              your calves, bubbling from the speed of the flow.<br><br>"
+              break;
+
+              case "wade into vernal pool":
+              gameText.innerHTML+= "<b>Vernal Pool Wading</b><br>"+"Tread carefully!\
+               The abundant plant growth provides ample opportunity to stumble \
+               into the murky waters below. Your boots are near submerged by \
+               the time you reach the center of the pool. Mud suctions onto \
+               your wader and slows your pace immensely, but slow motion gives\
+              you plenty of time to creature watch.<br><br>"
               break;
         }
         }

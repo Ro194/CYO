@@ -57,7 +57,7 @@ h1{
     height: 300px;
     padding-top: 10px;
     padding-left: 10px;
-    padding-bottom: 2px;
+    padding-bottom: 200px;
     padding-right: 80px;
 }
 
@@ -88,7 +88,7 @@ h1{
   margin-left: auto;
   margin-top: 70px;
     margin-right: auto;
-    width: 600px;
+    width: 900px;
     padding: 50px;
 }
 
@@ -115,6 +115,11 @@ h1{
   height: 10;
 }
 #mapScroll{
+  position: fixed;
+     top: 60px;
+}
+
+#interactScroll{
   position: fixed;
      top: 20px;
 }
