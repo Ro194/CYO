@@ -513,8 +513,8 @@ var gameText = document.getElementById('gameText');
               The heavy, waterproof suit has a built-in pair of boots and \
               suspenders that go over your shoulders. The left shoulder, \
               however, is broken so you continue on with one strap. It sure \
-              won’t stop you from going for a wade in Paramecium Pond, the Silver\
-               Thread, Mirror Pond, the Waterfall, or the Vernal Pool!<br>\
+              won’t stop you from going for a wade in <b>Paramecium Pond</b>, the <b>Silver\
+               Thread</b>, <b>Mirror Pond</b>, the <b>Waterfall</b>, or the <b>Vernal Pool</b>!<br>\
                --Your wader allows you to enter these bodies of water using \
                <b>wade into(W)</b> 'x'.--<br><br>"
               break;
