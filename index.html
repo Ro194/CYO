@@ -1,7 +1,66 @@
 <!DOCTYPE html>
-<html>
+<head>
+  <h1 align= center >Wandering in Wellesley!</h1>
+  <p id="Welcome" >Welcome to this new adventure! There’s no narrative. No order.
+    No rush. Just you!<br>
+    <br>
+Explore the wilds of Wellesley from anywhere and pick up a few takeaways for
+when you get back out there. Wellesley’s waiting for you, wanderer!
+</p>
+<p id= "guide"><b>Guide:</b><br><br>
+This program responds to several commands listed in the word bank! <br><br>
+To move around in and interact with the world, you can combine these phrases with their
+ corresponding items, which are in <b>bold print</b> and marked by the abbreviations
+  in parenthesis.
+  <br>(ie. <b>Cherry(T)</b>→Take cherry, <b>Notebook(E)</b>-->Examine notebook)
+  <br> <br>Hit enter to submit your commands!
+</p>
+
+
+
+<div id="mapScroll">
+  <button id="mapButton" >Press for Map!</button>
+  <br />
+<img id="image" src="storyMap2.png" width="450" height="250">
+</div>
+
+<div id="interactScroll">
+  <button id="intButton" >Press for Word Bank!</button>
+  <br />
+<img id="image2" src="wordbank.png" width="400" height="300">
+</div>
+
+</head>
+
+
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div id="gameDiv">
+    <p id= "gameText">Welcome to the game!</p>
+
+
+
+
+  <link href="CYO.css" rel="stylesheet">
+  <script src="CYO.js"></script>
+
+
+  <input type="text" placeholder="Type " id="userInput">
+
+    <script>
+    function getInputValue() {
+      inputVal = document.getElementById("userInput").value;
+      alert(inputVal);
+    }
+
+    </script>
+
+</div>
+
+<div id= "freeSpace">
+<p id="me" >Paulson Initiative 2021<br></p>
+    <p>Created by: Ryan Rowe '23<br>
+</p>
+</div>
+
 </body>
-</html>
