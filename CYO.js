@@ -317,7 +317,7 @@ var gameText = document.getElementById('gameText');
               of the meadow after heavy rain. Luckily for you, your calm demeanor and still \
               stance left you undetected by the creatures who come to drink and rest at the\
                gathering spot. A pair of bunnies stretch under the warm sun. If you wish to \
-               get a closer look, examine spot(E), but you may scare away the animals.\
+               get a closer look, examine <b>spot(E)</b>, but you may scare away the animals.\
                <br><br>";
               break;
 
