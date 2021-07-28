@@ -115,7 +115,7 @@ var rooms = {
 
 
   "room6":{"description":"<b>The Kettle</b><br> You have entered the Kettle. The land is near \
-  flat in this part of the arboretum as a result of glacial activity thousands of\
+  flat in this part of the arboretum as a result of glacial activity from thousands of\
    years ago. A slight bevel, however, has led to the \
   creation of a densely vegetated pool at the bottom of the slope. Behind you, \
   Dogwood trees heavy with white bracts shower them down like snow to the right \
