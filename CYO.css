@@ -111,8 +111,8 @@ h1{
   display: none;
 }
 #image{
-  width: 10;
-  height: 10;
+  width: 400;
+  height: 400;
 }
 #mapScroll{
   position: fixed;
