@@ -428,7 +428,7 @@ var gameText = document.getElementById('gameText');
 
               case "examine rock":
               gameText.innerHTML+= "<b>Rock</b><br>"+"In black paint, the rock quotes: “I am \
-              magical and deserving of sweetness.” That’s definitely something \
+              magical and deserving of sweetness.” That’s definitely an affirmation \
               to remember! You tuck it back into the crevice. There it will \
               remain as one more sweet thing to be welcomed into the lives of \
               wanderers to come.<br><br>"
