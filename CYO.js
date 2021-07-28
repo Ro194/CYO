@@ -516,7 +516,7 @@ var gameText = document.getElementById('gameText');
               won’t stop you from going for a wade in <b>Paramecium Pond</b>, the <b>Silver\
                Thread</b>, <b>Mirror Pond</b>, the <b>Waterfall</b>, or the <b>Vernal Pool</b>!<br>\
                --Your wader allows you to enter these bodies of water using \
-               <b>wade into(W)</b> 'x'.--<br><br>"
+               <b>wade into(W)</b> [insert name].--<br><br>"
               break;
 
               case "take clementines":
