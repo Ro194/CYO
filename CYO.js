@@ -80,7 +80,7 @@ var rooms = {
 
 
 
-  "room4":{ "description":"<b>Waterfall</b><br> You have entered the Waterfall. You have entered\
+  "room4":{ "description":"<b>Waterfall</b><br> You have entered\
    the Waterfall. Here stands the origin of the Silver Thread stream that snakes\
     its way from this point all the way to Paramecium Pond. The gurgling of \
     rushing water is unmistakable. Not much lives here, but there’s beauty to be \
