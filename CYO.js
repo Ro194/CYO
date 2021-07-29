@@ -337,6 +337,8 @@ var gameText = document.getElementById('gameText');
                gathering spot. A pair of bunnies stretch under the warm sun. If you wish to \
                get a closer look, examine <b>spot(E)</b>, but you may scare away the animals.\
                <br><br>";
+            imageDiv.innerHTML = '<img src="flood.jpeg" ="500" height="400">';
+            
               break;
 
               case "examine spot":
@@ -353,14 +355,18 @@ var gameText = document.getElementById('gameText');
               colorful flowers in this meadow upon closer inspection. The \
               purples, yellows, and pinks peek out from the sea of green. It \
               couldn’t hurt to smell a few the next time you walk through.\
-              <br><br>"
+              <br><br>";
+            imageDiv.innerHTML = '<img src="flower.png" ="500" height="400">';
+     
               break;
 
               case "take feather":
               gameText.innerHTML+= "<b>Goose Feather</b><br>"+"The gray barbs feel smooth between your \
               fingers. The thick, white tip could easily be turned into a quill\
                with a few choice cuts.\
-               <br><br>"
+               <br><br>";
+            imageDiv.innerHTML = '<img src="Geesenearlabyrinth.jpg" ="500" height="400">';
+            
               break;
 
               case "examine grass":
@@ -369,7 +375,8 @@ var gameText = document.getElementById('gameText');
               skies in jubilant celebration of warm weather. The Swallows in the\
                surrounding trees are celebrating too…they swoop into the fray to \
                feast.\
-               <br><br>"
+               <br><br>";
+            imageDiv.innerHTML = '<img src="grasses.jpeg" ="500" height="400">';
               break;
 
               case "examine pond bench":
@@ -381,7 +388,9 @@ var gameText = document.getElementById('gameText');
                --Here You Find:<br>\
                <b>Notebook(E)</b><br>\
                Blueberry <b>shrub</b>(E).\
-               <br><br>"
+               <br><br>";
+            imageDiv.innerHTML = '<img src="pondbench.jpg" ="500" height="400">';
+            ;
               break;
 
               case "examine shrub":
