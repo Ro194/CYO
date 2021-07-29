@@ -645,7 +645,8 @@ var gameText = document.getElementById('gameText');
               gameText.innerHTML+= "<b>Paramecium Pond Wading</b><br>"+"Tread \
               carefully! This pond is too deep to risk wading far into. Instead,\
                you skirt the perimeter and go no deeper than your ankles. Lily \
-               pads knock gently against your boots.<br><br>"
+               pads knock gently against your boots. Nearby, a painted turtle calmly sunbathes.<br><br>";
+            imageDiv.innerHTML = '<img src="paraeyeview.png" ="500" height="400">';
               break;
 
               case "wade into silver thread":
@@ -654,7 +655,8 @@ var gameText = document.getElementById('gameText');
                along its length, stepping over the occasional pile of leaves. \
                Water striders accompany you on your journey. They skate \
                effortlessly on the water’s surface, almost daring you to keep \
-               up.<br><br>"
+               up.<br><br>";
+            imageDiv.innerHTML = '<img src="striders.png" ="500" height="400">';
               break;
 
               case "wade into mirror pond":
@@ -662,13 +664,15 @@ var gameText = document.getElementById('gameText');
                Frogs dash for cover as your boots plunge through the mud and weeds. \
                The muck grips the soles of your wader and you realize within a \
                few steps that this small pond, though shallow, has mud that\
-                runs deep.<br><br>"
+                runs deep.<br><br>";
+            imageDiv.innerHTML = '<img src="mirrorlook.jpeg" ="500" height="400">';
               break;
 
               case "wade into waterfall":
               gameText.innerHTML+= "<b>Waterfall Wading</b><br>"+"Rocks crunch \
               and shift beneath your feet. Frigid water streaks white around \
-              your calves, bubbling from the speed of the flow.<br><br>"
+              your calves, bubbling from the speed of the flow.<br><br>";
+            imageDiv.innerHTML = '<img src="waterflow2.jpeg" ="500" height="400">';
               break;
 
               case "wade into vernal pool":
@@ -677,7 +681,8 @@ var gameText = document.getElementById('gameText');
                into the murky waters below. Your boots are near submerged by \
                the time you reach the center of the pool. Mud suctions onto \
                your wader and slows your pace immensely, but slow motion gives\
-              you plenty of time to creature watch.<br><br>"
+              you plenty of time to creature watch.<br><br>";
+            imageDiv.innerHTML = '<img src="vp.jpeg" ="500" height="400">';
               break;
         }
         }
