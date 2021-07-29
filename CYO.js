@@ -212,7 +212,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
-              imageDiv.innerHTML = '<img src="parapond.jpg" ="500" height="400">';
+              imageDiv.innerHTML = '<img src="Parapond.jpg" ="500" height="400">';
             };
             break;
 
@@ -232,7 +232,7 @@ var gameText = document.getElementById('gameText');
             mapLocation -= 1;
             var where= map[mapLocation];
             gameText.innerHTML+= rooms[where].description;
-            imageDiv.innerHTML = '<img src="parapond.jpg" ="500" height="400">';
+            imageDiv.innerHTML = '<img src="Parapond.jpg" ="500" height="400">';
           };
           break;
 
@@ -242,7 +242,7 @@ var gameText = document.getElementById('gameText');
             mapLocation -= 6;
             var where= map[mapLocation];
             gameText.innerHTML+= rooms[where].description;
-            imageDiv.innerHTML = '<img src="meadow1.jpeg" ="500" height="400">';
+            imageDiv.innerHTML = '<img src="meadow1.jpg" ="500" height="400">';
           };
           break;
 
