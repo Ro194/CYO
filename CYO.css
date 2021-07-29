@@ -1,17 +1,12 @@
-#bankAndPhoto{
-  padding-bottom: 100px;
-}
+
 
 body{
   background-image: url("background-forest.png");
-  height: 110%;
+  height: 130%;
 background-position: center;
 background-size: cover;
 }
 
-#bankAndPhoto{
-  padding-top: 30px;
-}
 
 h1{
   background-color: white;
