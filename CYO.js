@@ -306,7 +306,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
-              imageDiv.innerHTML = '<img src="MirrorPond.jpg" ="500" height="400">';
+              imageDiv.innerHTML = '<img src="MirrorPond.JPG" ="500" height="400">';
             };
             break;
 
@@ -316,7 +316,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
-              imageDiv.innerHTML = '<img src="MirrorPond.jpg" ="500" height="400">';
+              imageDiv.innerHTML = '<img src="MirrorPond.JPG" ="500" height="400">';
             };
 
             // mirror pond to waterfall
