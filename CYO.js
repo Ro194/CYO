@@ -408,8 +408,8 @@ var gameText = document.getElementById('gameText');
               book is contained in when you lift it from its perch. Inside, the\
                notebook’s weather worn pages have gone soft--warped by time and \
                moisture. A bottle of ink and an xacto knife also lie at the bottom\
-                of the bag. If you have the goose feather, you can make a quill(M)\
-                 and write in the notebook! Otherwise, examine pages(E).\
+                of the bag. If you have the goose feather, you can make a <b>quill(M)</b>\
+                 and write in the notebook! Otherwise, examine <b>pages(E)</b>.\
                <br><br>";
             imageDiv.innerHTML = '<img src="note.jpeg" ="500" height="400">';
             
@@ -427,7 +427,7 @@ var gameText = document.getElementById('gameText');
               case "make quill":
               gameText.innerHTML+= "<b>Quill</b><br>"+"The xacto knife makes short work of the goose \
               feather’s shaft. You carve a precise “u” shape on the tip and trace \
-              a thin line down the middle. Take a quick glance at the book(E) \
+              a thin line down the middle. Take a quick glance at the <b>book(E)</b> \
               while you soak your quill tip in the ink jar!<br><br>";
             imageDiv.innerHTML = '<img src="Geesenearlabyrinth.jpg" ="500" height="400">';
               break;
@@ -530,13 +530,15 @@ var gameText = document.getElementById('gameText');
                pointy-leaved vines. The vines are tightly coiled around trees, \
                shrubs, and even each other!<br>\
                --Here You Find:<br>\
-               Bittersweet <b>Vine(T)</b><br><br>"
+               Bittersweet <b>Vine(T)</b><br><br>";
+            imageDiv.innerHTML = '<img src="clearing.jpeg" ="500" height="400">';
               break;
 
               case "take vine":
               gameText.innerHTML+= "<b>Bittersweet Vine</b><br>"+"When pulled from the ground, invasive \
               Bittersweet is a pliable and useful material for weaving. You sit \
-              and weave--enjoying the sunshine all the while.<br><br>"
+              and weave--enjoying the sunshine all the while.<br><br>";
+            imageDiv.innerHTML = '<img src="bittersweet2.jpeg" ="500" height="400">';
               break;
 
               case "examine bridge":
