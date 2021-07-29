@@ -1,7 +1,7 @@
 
 
 body{
-  background-image: url("background-forest.png") no-repeat center fixed;
+  background-image: url("background-forest.png");
   min-height: 100%;
 background-position: center center;
 background-size: cover;
