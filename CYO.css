@@ -17,7 +17,9 @@ h1{
     padding: 10px;
 }
 
-
+#imageDiv{
+  align:center;
+}
 
 #Welcome{
   align:center;
