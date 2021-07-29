@@ -685,7 +685,7 @@ var gameText = document.getElementById('gameText');
             imageDiv.innerHTML = '<img src="vp.jpeg" ="500" height="400">';
               break;
             
-            default: alert("Don't worry! If your command is not working, try to match the abbreviation in parenthesis with its corresponding phrase in the word bank. Then, check to make sure you are typing the full word/words in bold print. Refer to Example 1 in the guide if you need help determining what is interactable.");
+            default: alert("Don't worry! If your command is not working, try to match the abbreviation in parenthesis with its corresponding phrase in the word bank. Each interactable item has one word bank phrase associated with it and the parenthesis will let you know which one to type! Then, check to make sure you are typing the full word/words in bold print. You don't need to retype the parenthesis or abbreviation after your command. Refer to Example 1 in the guide if you need help determining what is interactable and how to format your command.");
                      break;
         }
         }
