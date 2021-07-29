@@ -547,7 +547,8 @@ var gameText = document.getElementById('gameText');
                False cypresses. Underneath the bridge is slow moving water.<br>\
                --Here You Find:<br>\
                Bag of <b>Clementines(T)</b><br>\
-              <b> Wader(T)</b><br><br>"
+              <b> Wader(T)</b><br><br>";
+            imageDiv.innerHTML = '<img src="bridge.jpeg" ="500" height="400">';
               break;
 
               case "take wader":
@@ -558,20 +559,23 @@ var gameText = document.getElementById('gameText');
               won’t stop you from going for a wade in <b>Paramecium Pond</b>, the <b>Silver\
                Thread</b>, <b>Mirror Pond</b>, the <b>Waterfall</b>, or the <b>Vernal Pool</b>!<br>\
                --Your wader allows you to enter these bodies of water using \
-               <b>wade into(W)</b> [insert name].--<br><br>"
+               <b>wade into(W)</b> [insert name].--<br><br>";
+            imageDiv.innerHTML = '<img src="wader.jpeg" ="500" height="400">';
               break;
 
               case "take clementines":
               gameText.innerHTML+= "<b>Bag of Clementines</b><br>"+"These must’ve \
               been left by a biology class. Clementines are often used to measure \
               water speed because of their buoyant properties. You can keep the \
-              clementines or toss <b>a clementine(Ts)</b> in the water.<br><br>"
+              clementines or toss <b>a clementine(Ts)</b> in the water.<br><br>";
+            imageDiv.innerHTML = '<img src="bridge3.jpeg" ="500" height="400">';
               break;
 
               case "toss a clementine":
               gameText.innerHTML+= "<b>Tossed Clementine</b><br>"+"The fruit slowly \
               floats by, inch by inch, until it becomes wedged in a tangle of \
-              branches. Maybe toss <b>again(Ts)</b>?<br><br>"
+              branches. Maybe toss <b>again(Ts)</b>?<br><br>";
+            imageDiv.innerHTML = '<img src="bridge2.jpeg" ="500" height="400">';
               break;
 
               case "toss again":
