@@ -73,7 +73,7 @@ var rooms = {
   Bittersweet<b> Clearing(E)</b><br>\
 --If you have found the wader, you can use it here!--<br> \
   --You can go<b> West</b> to Labyrinth or \
-  <b>East</b> to Waterfall.--\
+  <b>Right</b> to Waterfall.--\
   <br><br>",
   "directions":{
     "West":"room2",
@@ -90,7 +90,7 @@ var rooms = {
     <b>Bridge(E)</b><br>\
     <b>Waterfall(E)</b><br>\
 --If you have found the wader, you can use it here!--<br> \
-    --You can go<b> West</b> to Mirror Pond or \
+    --You can go<b> Left</b> to Mirror Pond or \
     <b>South</b> to Azalea Hill.--\
     <br><br>",
     "directions":{
@@ -299,9 +299,10 @@ var gameText = document.getElementById('gameText');
               gameText.innerHTML+= rooms[where].description;
               imageDiv.innerHTML = '<img src="labyrinth1.jpeg" ="500" height="400">';
             };
-
-            //waterfall to mirror pond
             break;
+            
+            //waterfall to mirror pond
+          case "left":
             if (mapPath['mapLocation']=true && map[4]){
               mapLocation -= 1;
               var where= map[mapLocation];
@@ -318,9 +319,10 @@ var gameText = document.getElementById('gameText');
               gameText.innerHTML+= rooms[where].description;
               imageDiv.innerHTML = '<img src="MirrorPond.JPG" ="500" height="400">';
             };
-
-            // mirror pond to waterfall
             break;
+            
+            // mirror pond to waterfall
+          case "right":
             if (mapPath['mapLocation']=true && map[3]){
               mapLocation += 1;
               var where= map[mapLocation];
