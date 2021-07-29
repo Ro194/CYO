@@ -191,7 +191,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
-              imageDiv.innerHTML = '<img src="waterfall.jpeg" ="400" height="300">';
+              imageDiv.innerHTML = '<img src="waterfall.jpeg" ="500" height="400">';
             };
             break;
 
@@ -202,7 +202,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
-              imageDiv.innerHTML = '<img src="ahill1.jpeg" ="400" height="300">';
+              imageDiv.innerHTML = '<img src="ahill1.jpeg" ="500" height="400">';
             };
             break;
 
@@ -212,6 +212,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="parapond.jpg" ="500" height="400">';
             };
             break;
 
@@ -221,6 +222,7 @@ var gameText = document.getElementById('gameText');
             mapLocation += 1;
             var where= map[mapLocation];
             gameText.innerHTML+= rooms[where].description;
+            imageDiv.innerHTML = '<img src="labyrinth1.jpeg" ="500" height="400">';
           };
           break;
 
@@ -230,6 +232,7 @@ var gameText = document.getElementById('gameText');
             mapLocation -= 1;
             var where= map[mapLocation];
             gameText.innerHTML+= rooms[where].description;
+            imageDiv.innerHTML = '<img src="parapond.jpg" ="500" height="400">';
           };
           break;
 
@@ -239,6 +242,7 @@ var gameText = document.getElementById('gameText');
             mapLocation -= 6;
             var where= map[mapLocation];
             gameText.innerHTML+= rooms[where].description;
+            imageDiv.innerHTML = '<img src="meadow1.jpeg" ="500" height="400">';
           };
           break;
 
@@ -249,6 +253,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="ket1.jpeg" ="500" height="400">';
             };
             break;
 
@@ -258,6 +263,8 @@ var gameText = document.getElementById('gameText');
               mapLocation += 6;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="ket1.jpeg" ="500" height="400">';
+              
             };
             break;
 
@@ -268,6 +275,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="ahill.jpeg" ="500" height="400">';
             };
             break;
 
@@ -278,6 +286,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="meadow1.jpg" ="500" height="400">';
             };
             break;
 
@@ -288,6 +297,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="labyrinth1.jpeg" ="500" height="400">';
             };
 
             //waterfall to mirror pond
@@ -296,6 +306,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="MirrorPond.jpg" ="500" height="400">';
             };
             break;
 
@@ -305,6 +316,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="MirrorPond.jpg" ="500" height="400">';
             };
 
             // mirror pond to waterfall
@@ -313,6 +325,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="waterfall.jpeg" ="500" height="400">';
             };
             break;
 
