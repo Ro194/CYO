@@ -399,7 +399,8 @@ var gameText = document.getElementById('gameText');
                and fill it berry by berry. The skins of the fruit range from \
                deep blues to an almost grape-like purple. The berries may differ\
                 in appearance, but they all have the sweet taste of summer when eaten.\
-               <br><br>"
+               <br><br>";
+            imageDiv.innerHTML = '<img src="shrub.jpeg" ="500" height="400">';
               break;
 
               case "examine notebook":
@@ -409,7 +410,9 @@ var gameText = document.getElementById('gameText');
                moisture. A bottle of ink and an xacto knife also lie at the bottom\
                 of the bag. If you have the goose feather, you can make a quill(M)\
                  and write in the notebook! Otherwise, examine pages(E).\
-               <br><br>"
+               <br><br>";
+            imageDiv.innerHTML = '<img src="note.jpeg" ="500" height="400">';
+            
               break;
 
               case "examine pages":
@@ -425,7 +428,8 @@ var gameText = document.getElementById('gameText');
               gameText.innerHTML+= "<b>Quill</b><br>"+"The xacto knife makes short work of the goose \
               feather’s shaft. You carve a precise “u” shape on the tip and trace \
               a thin line down the middle. Take a quick glance at the book(E) \
-              while you soak your quill tip in the ink jar!<br><br>"
+              while you soak your quill tip in the ink jar!<br><br>";
+            imageDiv.innerHTML = '<img src="Geesenearlabyrinth.jpg" ="500" height="400">';
               break;
 
               case "examine book":
@@ -434,7 +438,8 @@ var gameText = document.getElementById('gameText');
                some are comical…all chronicle snapshots into the lives of Wellesley \
                students who have sat and pondered in the same spot you’re sitting\
                 in now. Now, you too will leave a mark here for someone else to \
-                find! Get writing! What will YOU leave behind?<br><br>"
+                find! Get writing! What will YOU leave behind?<br><br>";
+            imageDiv.innerHTML = '<img src="note.jpeg" ="500" height="400">';
               break;
 
 
@@ -444,7 +449,8 @@ var gameText = document.getElementById('gameText');
               and roadblocks of overgrowth. Nevertheless, you reach the center. \
               Embedded in the earth is an ancient tree stump of epic proportions. \
               On the surface of the stump is a shallow crevice filled with miscellaneous \
-              <b>items(E)</b>.<br><br>"
+              <b>items(E)</b>.<br><br>";
+            imageDiv.innerHTML = '<img src="labstump.png" ="500" height="400">';
               break;
 
               case "examine items":
