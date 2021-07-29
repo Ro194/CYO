@@ -619,12 +619,14 @@ var gameText = document.getElementById('gameText');
               faces the roadway. During the day, birdsong and open sky envelop\
                the area, but when the sun goes down, this bench is a front row \
                seat to the stars and a lightshow made by the headlights of \
-               passing cars.<br><br>"
+               passing cars.<br><br>";
+            imageDiv.innerHTML = '<img src="kb.jpeg" ="500" height="400">';
               break;
 
               case "examine trees":
               gameText.innerHTML+= "<b>Star-shaped Leaves</b><br>"+"Star-shaped leaves \
-              overshadow the front of the bench.<br><br>"
+              overshadow the front of the bench.<br><br>";
+            imageDiv.innerHTML = '<img src="starleaf.jpeg" ="500" height="400">';
               break;
 
               case "examine pool":
@@ -635,7 +637,8 @@ var gameText = document.getElementById('gameText');
               There is much life to be found here... frogs, the occasional duck,\
                and now you! Stay awhile and imagine what you could find with a \
                little bit of patience. <br>\
-              --If you have found the wader, you can use it here!--<br><br>"
+              --If you have found the wader, you can use it here!--<br><br>";
+            imageDiv.innerHTML = '<img src="vp.jpeg" ="500" height="400">';
               break;
 
               case "wade into paramecium pond":
