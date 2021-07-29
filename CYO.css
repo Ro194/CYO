@@ -22,44 +22,7 @@ h1{
     padding: 10px;
 }
 
-#mapPhoto{
-  display: inline-block;
-  vertical-align:middle;
-  margin-left: 300;
-  margin-right: 10;
 
-  width: 50%;
-}
-
-#Bank{
-  display: inline-block;
-  background-color: white;
-  border-style: solid;
-  margin-left: auto;
-    margin-right: 30;
-    float: right;
-    width: 100px;
-    height: 300px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 30px;
-    padding-right: 90px;
-}
-
-#interactionDiv{
-  display: inline-block;
-  background-color: white;
-  border-style: solid;
-  margin-left: 30;
-  float: left;
-    margin-right: auto;
-    width: 100px;
-    height: 300px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 200px;
-    padding-right: 80px;
-}
 
 #Welcome{
   align:center;
@@ -77,7 +40,7 @@ h1{
   border-style: solid;
   margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 900px;
     padding: 50px;
 }
 
