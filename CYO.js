@@ -191,6 +191,7 @@ var gameText = document.getElementById('gameText');
               mapLocation -= 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="waterfall.jpeg" ="400" height="300">';
             };
             break;
 
@@ -201,6 +202,7 @@ var gameText = document.getElementById('gameText');
               mapLocation += 1;
               var where= map[mapLocation];
               gameText.innerHTML+= rooms[where].description;
+              imageDiv.innerHTML = '<img src="ahill1.jpeg" ="400" height="300">';
             };
             break;
 
