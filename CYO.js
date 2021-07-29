@@ -684,6 +684,11 @@ var gameText = document.getElementById('gameText');
               you plenty of time to creature watch.<br><br>";
             imageDiv.innerHTML = '<img src="vp.jpeg" ="500" height="400">';
               break;
+            
+            default: alert("Don't worry! If your command is not working, try to match the abbreviation\
+            in parenthesis with its corresponding phrase in the word bank. Then, check to make sure you are typing the full word/words in bold print. Refer to Example 1 \
+            in the guide if you need help determining what is interactable.");
+                     break;
         }
         }
 });
