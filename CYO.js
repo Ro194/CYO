@@ -584,7 +584,8 @@ var gameText = document.getElementById('gameText');
               gameText.innerHTML+= "<b>Tossed Clementine</b><br>"+"The fruit \
               slowly floats by, inch by inch. You crouch on the bank of the \
               Silver Thread, waiting, until it passes under the bridge and out \
-              of view. If only you had a yard stick and a timer!<br><br>"
+              of view. If only you had a yard stick and a timer!<br><br>";
+            imageDiv.innerHTML = '<img src="bridge2.jpeg" ="500" height="400">';
               break;
 
               case "examine waterfall":
@@ -592,7 +593,8 @@ var gameText = document.getElementById('gameText');
                the touch. At the very top, water seems to gush out from a single\
                 break in a rock formation. Is it natural...or is there an \
                 alternative source?<br>\
-              --If you have found the wader, you can use it here!--<br><br>"
+              --If you have found the wader, you can use it here!--<br><br>";
+            imageDiv.innerHTML = '<img src="waterflow.jpeg" ="500" height="400">';
               break;
 
               case "examine hill":
@@ -600,13 +602,15 @@ var gameText = document.getElementById('gameText');
               tree cover outlines a yellow house in the distance. Before you is \
               a solid stone bench. It is flanked by towering bushes, which give \
               it a throne-like appearance. An inscription on the bench reads: \
-              “In Memory of Margaret C. Ferguson.”<br><br>"
+              “In Memory of Margaret C. Ferguson.”<br><br>";
+            imageDiv.innerHTML = '<img src="maggie.jpeg" ="500" height="400">';
               break;
 
               case "take azalea":
               gameText.innerHTML+= "<b>Azalea</b><br>"+"Pink bundles abound \
               across the length of the hill. You pluck an azalea and tuck it \
-              behind your ear. How beautiful!<br><br>"
+              behind your ear. How beautiful!<br><br>";
+            imageDiv.innerHTML = '<img src="az.png" ="500" height="400">';
               break;
 
               case "examine kettle bench":
