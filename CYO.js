@@ -470,7 +470,8 @@ var gameText = document.getElementById('gameText');
               case "examine photograph":
               gameText.innerHTML+= "<b>Photograph</b><br>"+"You hold a grimy photo of the labyrinth in \
               its early days. Peace emanates from the tranquil spot encircled by\
-               fairy lights.<br><br>"
+               fairy lights.<br><br>";
+            imageDiv.innerHTML = '<img src="lab2.JPG" ="500" height="400">';
               break;
 
               case "examine silver thread":
@@ -481,7 +482,8 @@ var gameText = document.getElementById('gameText');
               alongside Forget-me-nots, asters, and clovers, but you find a \
               few flattened gaps in the shade. These make it easy to hop across \
               the Silver Thread should the need arise.<br> \
-              --If you have found the wader, you can use it here!--<br><br>"
+              --If you have found the wader, you can use it here!--<br><br>";
+            imageDiv.innerHTML = '<img src="st.jpeg" ="500" height="400">';
               break;
 
               case "examine weeping cherry":
@@ -493,14 +495,16 @@ var gameText = document.getElementById('gameText');
                --Here You Find:<br>\
                <b>Stumps(E)</b><br>\
                Pond’s <b>Edge(E)</b><br>\
-               <b>Cherry(T)</b><br><br>"
+               <b>Cherry(T)</b><br><br>";
+            imageDiv.innerHTML = '<img src="wc1.jpeg" ="500" height="400">';
               break;
 
               case "examine stumps":
               gameText.innerHTML+= "<b>Stumps</b><br>"+" Several stumps are scattered around the \
               base of the tree. These must’ve made nice seating in their prime.\
                Now they slowly crumble… eaten from the inside out by earthworms.\
-                Better bring your own chair or a picnic blanket next time!<br><br>"
+                Better bring your own chair or a picnic blanket next time!<br><br>";
+            imageDiv.innerHTML = '<img src="stumps.jpeg" ="500" height="400">';
               break;
 
               case "examine edge":
@@ -508,14 +512,16 @@ var gameText = document.getElementById('gameText');
                edge. Behold, a frog! Your footsteps send it careening into the \
                pond weed with a splash. This disturbance sends a collection of \
                resting chickadees into flight. Their small gray and black forms \
-               seem like blurs as they flutter higher into the weeping branches.<br><br>"
+               seem like blurs as they flutter higher into the weeping branches.<br><br>";
+            imageDiv.innerHTML = '<img src="edgefrog.jpeg" ="500" height="400">';
               break;
 
               case "take cherry":
               gameText.innerHTML+= "<b>Cherry</b><br>"+"You pluck a small, red berry from a branch \
               and take a nibble. It is bitter, but it won’t hurt you. Unfortunately,\
                weeping cherries taste bad enough to make just about anyone cry. \
-               Unless you’re a chipmunk!<br><br>"
+               Unless you’re a chipmunk!<br><br>";
+            imageDiv.innerHTML = '<img src="chip.jpeg" ="500" height="400">';
               break;
 
               case "examine clearing":
