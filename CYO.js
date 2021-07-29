@@ -34,6 +34,7 @@ var rooms = {
    Goose <b>Feather(T)</b><br>\
    Tall <b>Grass(E)</b><br>\
    <b>Pond Bench(E)</b><br>\
+  --If you have found the waders, you can use them here!--<br> \
    --You can go<b> Southeast</b> to East Meadow or \
    <b>Northeast</b> to the Old Labyrinth.--\
    <br><br>",
@@ -70,6 +71,7 @@ var rooms = {
   hanging branches greet the water below.<br>"+"--Here you find:<br>\
   <b>Weeping Cherry(E)</b><br>\
   Bittersweet<b> Clearing(E)</b><br>\
+--If you have found the waders, you can use them here!--<br> \
   --You can go<b> West</b> to Labyrinth or \
   <b>East</b> to Waterfall.--\
   <br><br>",
@@ -87,6 +89,7 @@ var rooms = {
     found in everything.<br> "+ "--Here you find:<br>\
     <b>Bridge(E)</b><br>\
     <b>Waterfall(E)</b><br>\
+--If you have found the waders, you can use them here!--<br> \
     --You can go<b> West</b> to Mirror Pond or \
     <b>South</b> to Azalea Hill.--\
     <br><br>",
@@ -447,7 +450,8 @@ var gameText = document.getElementById('gameText');
               stream. These square-stemmed plants thrive in sunny patches, \
               alongside Forget-me-nots, asters, and clovers, but you find a \
               few flattened gaps in the shade. These make it easy to hop across \
-              the Silver Thread should the need arise.<br><br>"
+              the Silver Thread should the need arise.<br> \
+              --If you have found the waders, you can use them here!--<br><br>"
               break;
 
               case "examine weeping cherry":
@@ -543,7 +547,8 @@ var gameText = document.getElementById('gameText');
               gameText.innerHTML+= "<b>Waterfall</b><br>"+"The water is cool to\
                the touch. At the very top, water seems to gush out from a single\
                 break in a rock formation. Is it natural...or is there an \
-                alternative source?<br><br>"
+                alternative source?<br>\
+              --If you have found the waders, you can use them here!--<br><br>"
               break;
 
               case "examine hill":
@@ -581,7 +586,8 @@ var gameText = document.getElementById('gameText');
               from the base of a tree not too far from the mouth of the pool. \
               There is much life to be found here... frogs, the occasional duck,\
                and now you! Stay awhile and imagine what you could find with a \
-               little bit of patience. <br><br>"
+               little bit of patience. <br>\
+              --If you have found the waders, you can use them here!--<br><br>"
               break;
 
               case "wade into paramecium pond":
