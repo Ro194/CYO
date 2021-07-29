@@ -389,7 +389,7 @@ var gameText = document.getElementById('gameText');
                <b>Notebook(E)</b><br>\
                Blueberry <b>shrub</b>(E).\
                <br><br>";
-            imageDiv.innerHTML = '<img src="pondbench.jpg" ="500" height="400">';
+            imageDiv.innerHTML = '<img src="pondbench.JPG" ="500" height="400">';
             ;
               break;
 
