@@ -528,7 +528,7 @@ var gameText = document.getElementById('gameText');
 
               case "examine clearing":
               gameText.innerHTML+= "<b>Bittersweet Clearing</b><br>"+"A grassy path runs perpendicular to the Weeping\
-               Willow tree. Following it leads to a shady grove filled with \
+               Cherry tree. Following it leads to a shady grove filled with \
                pointy-leaved vines. The vines are tightly coiled around trees, \
                shrubs, and even each other!<br>\
                --Here You Find:<br>\
