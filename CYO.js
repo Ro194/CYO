@@ -410,7 +410,7 @@ var gameText = document.getElementById('gameText');
               book is contained in when you lift it from its perch. Inside, the\
                notebook’s weather worn pages have gone soft--warped by time and \
                moisture. A bottle of ink and an xacto knife also lie at the bottom\
-                of the bag. If you have the goose feather, you can make a <b>quill(M)</b>\
+                of the bag. If you have a feather, you can make a <b>quill(M)</b>\
                  and write in the notebook! Otherwise, examine <b>pages(E)</b>.\
                <br><br>";
             imageDiv.innerHTML = '<img src="note.jpeg" ="500" height="400">';
@@ -427,7 +427,7 @@ var gameText = document.getElementById('gameText');
               break;
 
               case "make quill":
-              gameText.innerHTML+= "<b>Quill</b><br>"+"The xacto knife makes short work of the goose \
+              gameText.innerHTML+= "<b>Quill</b><br>"+"The xacto knife makes short work of the \
               feather’s shaft. You carve a precise “u” shape on the tip and trace \
               a thin line down the middle. Take a quick glance at the <b>book(E)</b> \
               while you soak your quill tip in the ink jar!<br><br>";
