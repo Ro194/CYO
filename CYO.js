@@ -29,9 +29,9 @@ var rooms = {
    thousand insect wings. If you look long enough, maybe you’ll see the creatures \
    those wings belong to. The pond calls to you from up ahead. Lily pads float \
    lazily across its surface. The geese seem to enjoy the peaceful waters as much \
-   as you do. Their feathers litter the ground. <br>"+
+   as you do. Bird feathers litter the ground. <br>"+
    "--Here you find:<br>\
-   Goose <b>Feather(T)</b><br>\
+   <b>Feather(T)</b><br>\
    Tall <b>Grass(E)</b><br>\
    <b>Pond Bench(E)</b><br>\
   --If you have found the wader, you can use it here!--<br> \
@@ -363,7 +363,7 @@ var gameText = document.getElementById('gameText');
               break;
 
               case "take feather":
-              gameText.innerHTML+= "<b>Goose Feather</b><br>"+"The gray barbs feel smooth between your \
+              gameText.innerHTML+= "<b>Feather</b><br>"+"The gray barbs feel smooth between your \
               fingers. The thick, white tip could easily be turned into a quill\
                with a few choice cuts.\
                <br><br>";
